@@ -1,21 +1,19 @@
 /*
-	Overflow by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Tessellate by Pixelarity
+	pixelarity.com @pixelarity
+	License: pixelarity.com/license
 */
 
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	body
+	.image,
+	.image img,
+	.button	
 	{
-		background-image:		url('../../images/bg.jpg');
-		background-repeat:		no-repeat;
-		background-size:		cover;
-		background-position: 	auto;
-		background-attachment:	scroll;
-		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		position: relative;
+		-ms-behavior: url('css/ie/PIE.htc');
 	}
 
 	/* Section/Article */
@@ -37,68 +35,133 @@
 				margin-bottom: 0;
 			}
 
-	/* Button */
+	/* List */
 
-		input[type="button"],
-		input[type="submit"],
-		input[type="reset"],
-		.button
+		ul.icons
 		{
-			position: relative;
-			-ms-behavior: url('css/ie/PIE.htc');
-		}
-
-			input[type="button"].style2,
-			input[type="submit"].style2,
-			input[type="reset"].style2,
-			.button.style2
+		}	
+		
+			ul.icons li
 			{
 			}
-
-				input[type="button"].style2:hover,
-				input[type="submit"].style2:hover,
-				input[type="reset"].style2:hover,
-				.button.style2:hover
+			
+				ul.icons a
 				{
-					color: #35b88f !important;
+					position: relative;
+					-ms-behavior: url('css/ie/PIE.htc');
+					border: solid 1px #ddd;
 				}
-			
-			input[type="button"].style3,
-			input[type="submit"].style3,
-			input[type="reset"].style3,
-			.button.style3
-			{
-				background: #fefefe;
-				border: solid 1px #dad9d9;
-			}
-			
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
 
-	#footer
-	{
-	}
+	/* Form */
 
-		#footer .icons
+		form
 		{
-			position: relative;
-			-ms-behavior: url('css/ie/PIE.htc');
 		}
 		
+			form input.text,
+			form select,
+			form .select,
+			form textarea
+			{
+				position: relative;
+				-ms-behavior: url('css/ie/PIE.htc');
+				border: solid 1px #ddd;
+				line-height: 1.25em;
+			}
+
+			form select
+			{
+				position: relative;
+			}
+			
+				form select option
+				{
+					color: #000;
+				}
+				
+			form .select
+			{
+			}
+
+				form .select select
+				{
+					width: 100%;
+				}
+
+				form .select:before
+				{
+					display: none;
+				}
+				
+	/* Button */
+		
+		.button.alt
+		{
+			border: solid 1px #ddd;
+		}
+
+	/* Feature Icon */
+
+		.feature-icon
+		{
+			padding-bottom: 0;
+		}
+		
+			.feature-icon:before,
+			.feature-icon:after
+			{
+				display: none;
+			}
+
+			.feature-icon .icon
+			{
+				position: relative;
+				-ms-behavior: url('css/ie/PIE.htc');
+				background: #fff;
+			}
+
+				.feature-icon .icon:before
+				{
+					font-size: 6em;
+					color: #3d3d3d;
+				}
+	
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 
 	#header
 	{
+		background-image:			url('../../images/header.jpg');
+		background-size:			cover;
+		background-position:		auto;
+		background-repeat:			no-repeat;
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
 	}
-	
-		#header header
+
+/*********************************************************************************/
+/* Main Sections                                                                 */
+/*********************************************************************************/
+
+	.main
+	{
+	}
+
+		.main > .content
 		{
 		}
 
-			#header header p
-			{
-				border-top: solid 1px #888;
-			}
+		.main > .content.style1
+		{
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#412e4c, endColorstr=#a56365);
+		}
+
+		.main > .content.style2
+		{
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#85505f, endColorstr=#384955);
+		}
+
+		.main > .content.style3
+		{
+			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#2f394e, endColorstr=#5f796b);
+		}
