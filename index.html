@@ -15,6 +15,27 @@
 		<script src="js/jquery.scrolly.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+	
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function(){
+					$('input[type="checkbox"]').click(function(){
+							if($(this).attr("value")=="red"){
+									$(".red").toggle();
+							}
+							if($(this).attr("value")=="green"){
+									$(".green").toggle();
+							}
+							if($(this).attr("value")=="blue"){
+									$(".blue").toggle();
+							}
+					});
+			});
+	</script>
+	
+	
+	
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -33,19 +54,22 @@
 					<p>August 29, 2015</p>
 				</header>
 				<footer>
-					<a href="#first" class="button scrolly">Synopsis</a>
-					<a href="#second" class="button scrolly">Cast</a>
-					<a href="#third" class="button scrolly">Reserve Your Seat</a>
+					<a href="#synopsis" class="button scrolly">Synopsis</a>
+					<a href="#cast" class="button scrolly">Cast</a>
+					<a href="#RSVP" class="button scrolly">Reserve Your Seat</a>
 				</footer>
 			</section>
 			
-		<!-- First -->
+			
+		<!-- Details Block -->
 			<section id="first" class="main">
 				<header>
 					<div class="container">
-						<h2>Primis in cep erat turpis odio varius</h2>
-						<p>Turpis ata varius primis orci cep ante tortor arcu sociis tellus ornare nullam augue donec neque vis amet sapien<br />
-						semper. Varius vis sapien tellus arcu ata ante tortor duis ornare turpis tempus tempor lorem augue vitae nec dolor.</p>
+						<h2>Hi. We're Mark and Laurie.</h2> <p>We are getting married on August 29th, 2015 in Madison, WI.</p>
+						<br>
+						<br>
+						<h2>What wedding?</h2> <p>Pretty crazy, right? We’ve been dating for almost eight years and we decided it might just make sense to get married.</p>
+
 					</div>
 				</header>
 				<div class="content dark style1 featured">
@@ -53,106 +77,83 @@
 						<div class="row">
 							<div class="4u">
 								<section>
-									<span class="feature-icon"><span class="icon fa-clock-o"></span></span>
+									<span class="feature-icon"><span class="icon fa-ticket"></span></span>
 									<header>
-										<h3>Gravida</h3>
+										<h3>Venue</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. 
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus 
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia 
-									accumsan vivamus.</p>
+									<p><a href="http://www.madisonorpheum.com/">The Orpheum Theatre</a> is located at <br>216 State Street <br>Madison, WI 53703.</p>
 								</section>
 							</div>
 							<div class="4u">
 								<section>
-									<span class="feature-icon"><span class="icon fa-bolt"></span></span>
+									<span class="feature-icon"><span class="icon fa-heart"></span></span>
 									<header>
-										<h3>Vivamus</h3>
+										<h3>Ceremony</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. 
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus 
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia 
-									accumsan vivamus.</p>
+									<p>The ceremony is on August 29th, 2015 at 4:30 PM, followed by cocktails <br>from 5:30 to 7:00 PM.</p>
 								</section>
 							</div>
 							<div class="4u">
 								<section>
-									<span class="feature-icon"><span class="icon fa-cloud"></span></span>
+									<span class="feature-icon"><span class="icon fa-cutlery"></span></span>
 									<header>
-										<h3>Accumsan</h3>
+										<h3>Dinner and Reception</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. 
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus 
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia 
-									accumsan vivamus.</p>
+									<p>Dinner starts at 7:00 PM.<br> Dancing starts at 8:00 PM.<br> Party ends when they kick us out.</p>
+								</section>
+							</div>
+						</div>
+						
+						
+						<div class="row">
+							<div class="4u">
+								<section>
+									<span class="feature-icon"><span class="icon fa-bed"></span></span>
+									<header>
+										<h3>Accomodations</h3>
+									</header>
+									<p>We’ve booked a block of rooms for wedding guests at the <a href="http://www.concoursehotel.com/">Madison Concourse Hotel and Governor's Club</a>.</p> <p>Call 800-356-8293
+									and mention “Gebhard/Riechers Wedding Rooms” <br>by 7/31 to receive special rate of $164 per night.  </p>
+								</section>
+							</div>
+							<div class="4u">
+								<section>
+									<span class="feature-icon"><span class="icon fa-car"></span></span>
+									<header>
+										<h3>Parking</h3>
+									</header>
+									<p>We’re recommending you park in the State Street Capitol Garage <br> (214 N. Carroll St).</p> <p> You’ll pay a flat rate of $5 for overnight parking there. Parking for overnight Concourse guests is $10. </p>
+								</section>
+							</div>
+							<div class="4u">
+								<section>
+									<span class="feature-icon"><span class="icon fa-university"></span></span>
+									<header>
+										<h3>Spending the day in Madison</h3>
+									</header>
+									<p>The Orpheum is near all of State Street's dining and shopping destinations, the Farmers' Market, and the University of Wisconsin-Madison campus.</p>
+									<p>You can also check out <a href="http://www.tonemadison.com/" target="_blank">Tone</a> for exciting ideas on how to spend your day.
 								</section>
 							</div>
 						</div>
 						<div class="row">
 							<div class="12u">
 								<footer>
-									<a href="#second" class="button scrolly">Gravida tempor lacinia</a>
+									<a href="#RSVP" class="button scrolly">Want to RSVP?</a>
 								</footer>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
-		<!-- Second -->
-			<section id="second" class="main">
-				<header>
-					<div class="container">
-						<h2>Euismod sed feugiat lorem tempus magna</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content dark style2">
-					<div class="container">
-						<div class="row">
-							<div class="4u">
-								<section>
-									<h3>Augue vivamus sed ipsum commodo lorem dolor</h3>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-									tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante 
-									vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus 
-									augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis 
-									lorem ipsum dolor placerat magna tempus feugiat.</p>
-									<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia 
-									accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-									euismod lorem ipsum dolor.</p>
-									<footer>
-										<a href="#third" class="button scrolly">Accumsan nisi tempor</a>
-									</footer>
-								</section>
-							</div>
-							<div class="8u">
-								<div class="row no-collapse">
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
-								</div>
-								<div class="row no-collapse">
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div>
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-								</div>
-								<div class="row no-collapse">
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-									<div class="6u"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 			
-		<!-- Third -->
-			<section id="third" class="main">
+		<!-- Synopsis -->
+			<section id="synopsis" class="main">
 				<header>
 					<div class="container">
-						<h2>Ornare varius lorem ipsum ante lectus</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
+						<h2>Why the Orpheum?</h2>
+						<p>We're movie theatre people. We both worked at different theatres during our teens and early twenties. We can usually be found catching up on our watch list at theatres around Madison or Chicago. The Orpheum holds a special place in our hearts: from attending Stage Door screenings and Wisconsin Film Festival movies in its heyday to comedy and music acts in its present-day resurgence, the historic space represents much of what we love about Madison past, present and future. We are excited to be part of the rebirth of the theatre and can’t wait to be a small part of its rich history.
+</p>
 					</div>
 				</header>
 				<div class="content dark style3">
@@ -160,41 +161,20 @@
 						<span class="image featured"><img src="images/pic07.jpg" alt="" /></span>
 						<div class="row">
 							<div class="4u">
-								<h3>Diam vivamus turpis lorem sodales lectus ornare</h3>
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam 
-								tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante 
-								vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus 
-								augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis 
-								lorem ipsum dolor placerat magna tempus feugiat.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia 
-								accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore 
-								euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu eget ornare varius 
-								gravida dolore euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu 
-								eget ornare et magna.</p>
+								<h3>They Met</h3>
+								<p>He worked at Eastgate Cinema. She worked at Point Cinema. The fates (or perhaps upper management) intervened, and Mark came to the west side one night to babysit the staff during a company party. They had never been happier to argue over film tastes and popcorn scooping technique. It was love at first sight.
+</p>
 							</div>
 							<div class="4u">
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam 
-								tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante 
-								vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus 
-								augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis 
-								lorem ipsum dolor placerat magna tempus feugiat.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia 
-								accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore 
-								euismod lorem ipsum dolor sit amet consequat eget ornare varius gravida euismod.
-								Gravida dis lorem ipsum dolor placerat magna tempus feugiat magna tempus lorem.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia 
-								accumsan vivamus augue cubilia.</p>
+								<h3>They Fell in Love</h3>
+								<p>Mark and Laurie dated throughout college. They each graduated from the University of Wisconsin-Madison–Mark in 2010, Laurie in 2011. </p>
+								<p>Mark began a career as a writer and media producer, freelancing for the Onion, the Isthmus, a few podcasts of his own and eventually settling in as a communicator for College of Engineering at his alma mater. Laurie joined the Schools of Hope AmeriCorps program, developing the passion for educating young kids that would lead her to Chicago to become an early childhood educator. Feeling a furry hole in their hearts, the pair adopted two rescue Boston terriers: Mac the speed demon made them a trio in August 2011, and Bacon the flatulent cuddled his way into their hearts in March 2014.</p>
 							</div>
 							<div class="4u">
-								<p>Placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui 
-								lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc 
-								euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue 
-								cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis 
-								lorem ipsum dolor placerat magna tempus feugiat. Lectus ante vel nunc euismod 
-								est turpis sodales. Diam tempor dui lacinia dolore.</p>
-								<p>Accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida 
-								dolore euismod lorem ipsum dolor sit amet conseismod lorem ipsum dolor sit amet 
-								consequat lorem ipsum consequat feugiat sed tempus euismod feugiat veroeros.</p>
+								<h3>They Went For It</h3>
+								<p>After six years of being together, weathering career changes, a move to Chicago in 2013 and that time that Bacon wouldn’t stop pooping in the house, Mark and Laurie knew they could do anything if they did it together. </p>
+								<p>Mark dropped to his knee outside the Landmark Century Centre Cinema on January 31, 2014. There was no question in Laurie's mind.
+</p>
 								<footer>
 									<a href="#fourth" class="button scrolly">Ipsum ornare lorem dolor</a>
 								</footer>
@@ -203,6 +183,53 @@
 					</div>
 				</div>
 			</section>
+			
+			<!-- Cast -->
+				<section id="cast" class="main">
+					<header>
+						<div class="container">
+							<h2>Wedding party with photos here.</h2>
+							<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
+							feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
+						</div>
+					</header>
+					<div class="content dark style2">
+						<div class="container">
+							<div class="row">
+								<div class="4u">
+									<section>
+										<h3>Augue vivamus sed ipsum commodo lorem dolor</h3>
+										<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
+										tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante 
+										vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus 
+										augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis 
+										lorem ipsum dolor placerat magna tempus feugiat.</p>
+										<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia 
+										accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
+										euismod lorem ipsum dolor.</p>
+										<footer>
+											<a href="#third" class="button scrolly">Accumsan nisi tempor</a>
+										</footer>
+									</section>
+								</div>
+								<div class="8u">
+									<div class="row no-collapse">
+										<div class="6u"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
+										<div class="6u"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
+									</div>
+									<div class="row no-collapse">
+										<div class="6u"><a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div>
+										<div class="6u"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
+									</div>
+									<div class="row no-collapse">
+										<div class="6u"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
+										<div class="6u"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
 		<!-- Basic Elements -->
 		<!--
@@ -376,38 +403,17 @@
 			</section>
 		-->
 		
-		<!-- Fourth -->
-			<section id="fourth" class="main">
-				<header>
-					<div class="container">
-						<h2>Sed feugiat ipsum consequat</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content style4 featured">
-					<div class="container 75%">
-						<form method="post" action="#">
-							<div class="row 50%">
-								<div class="6u"><input type="text" placeholder="Name" /></div>
-								<div class="6u"><input type="text" placeholder="Email" /></div>
-							</div>
-							<div class="row 50%">
-								<div class="12u"><textarea name="message" placeholder="Message"></textarea></div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<ul class="actions">
-										<li><input type="submit" class="button" value="Send Message" /></li>
-										<li><input type="reset" class="button alt" value="Clear Form" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</section>
-			
+		
+		
+		
+		
+		
+<!--		
+		<!-- RSVP -->
+
+
+
+	
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
@@ -419,7 +425,7 @@
 				</ul>
 				<div class="copyright">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li>
+						<li>&copy; Mark Riechers and Laurie Gebhard. All rights reserved.</li>
 					</ul>
 				</div>
 			</section>

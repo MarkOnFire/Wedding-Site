@@ -12,6 +12,26 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
+@font-face {
+		font-family: Vincent;
+		src: url('fonts/Vincent-Regular.otf');
+}
+
+@font-face {
+		font-family: Open-Sans;
+		src: url('fonts/OpenSans-CondLight.ttf');
+}
+
+@font-face {
+		font-family: Open-Sans-Italic;
+		src: url('fonts/OpenSans-CondLightItalic.ttf');
+}
+
+@font-face {
+		font-family: Open-Sans-Bold;
+		src: url('fonts/OpenSans-CondBold.ttf');
+}
+
 	body
 	{
 		background: #F8F8F8;
@@ -33,7 +53,7 @@
 
 	body,input,textarea,select
 	{
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Open-Sans', sans-serif;
 		font-weight: 300;
 		font-size: 17pt;
 		line-height: 1.75em;
@@ -47,6 +67,7 @@
 		margin: 0 0 1em 0;
 		font-weight: 100;
 		line-height: 1.5em;
+		font-family:'Vincent'
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -933,6 +954,26 @@
 				padding-top: 0;
 				background: #fff;
 			}
+
+			
+/*********************************************************************************/
+/* Hide the kid's section                                            */
+/*********************************************************************************/
+
+
+
+
+.box{
+		padding: 20px;
+		display: none;
+		margin-top: 20px;
+		border: 1px solid #000;
+}
+.red{ background: #ff0000; }
+.green{ background: #00ff00; }
+.blue{ background: #0000ff; }
+
+
 
 /*********************************************************************************/
 /* Footer                                                                        */
