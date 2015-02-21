@@ -1,167 +1,127 @@
 /*
-	Tessellate by Pixelarity
+	Directive by Pixelarity
 	pixelarity.com @pixelarity
 	License: pixelarity.com/license
 */
 
-/*********************************************************************************/
-/* Basic                                                                         */
-/*********************************************************************************/
+/* Basic */
 
-	.image,
-	.image img,
-	.button	
-	{
+	hr {
+		border-top: solid 1px #cccccc;
+	}
+
+	blockquote {
+		border-left: solid 0.5em #cccccc;
+	}
+
+/* Section/Article */
+
+	header.major {
+		border-color: #cccccc;
+	}
+
+		header.major p {
+			border-top: solid 1px #cccccc;
+		}
+
+	footer.major {
+		border-color: #cccccc;
+	}
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
 		position: relative;
-		-ms-behavior: url('css/ie/PIE.htc');
+		-ms-behavior: url("css/ie/PIE.htc");
 	}
 
-	/* Section/Article */
-
-		section,
-		article
-		{
-		}
-		
-			section > .last-child,
-			article > .last-child
-			{
-				margin-bottom: 0;
-			}
-
-			section.last-child,
-			article.last-child
-			{
-				margin-bottom: 0;
-			}
-
-	/* List */
-
-		ul.icons
-		{
-		}	
-		
-			ul.icons li
-			{
-			}
-			
-				ul.icons a
-				{
-					position: relative;
-					-ms-behavior: url('css/ie/PIE.htc');
-					border: solid 1px #ddd;
-				}
-
-	/* Form */
-
-		form
-		{
-		}
-		
-			form input.text,
-			form select,
-			form .select,
-			form textarea
-			{
-				position: relative;
-				-ms-behavior: url('css/ie/PIE.htc');
-				border: solid 1px #ddd;
-				line-height: 1.25em;
-			}
-
-			form select
-			{
-				position: relative;
-			}
-			
-				form select option
-				{
-					color: #000;
-				}
-				
-			form .select
-			{
-			}
-
-				form .select select
-				{
-					width: 100%;
-				}
-
-				form .select:before
-				{
-					display: none;
-				}
-				
-	/* Button */
-		
-		.button.alt
-		{
-			border: solid 1px #ddd;
+		input[type="submit"].alt,
+		input[type="reset"].alt,
+		input[type="button"].alt,
+		.button.alt {
+			border: solid 1px #cccccc;
 		}
 
-	/* Feature Icon */
+/* Form */
 
-		.feature-icon
-		{
-			padding-bottom: 0;
-		}
-		
-			.feature-icon:before,
-			.feature-icon:after
-			{
-				display: none;
-			}
-
-			.feature-icon .icon
-			{
-				position: relative;
-				-ms-behavior: url('css/ie/PIE.htc');
-				background: #fff;
-			}
-
-				.feature-icon .icon:before
-				{
-					font-size: 6em;
-					color: #3d3d3d;
-				}
-	
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
-
-	#header
-	{
-		background-image:			url('../../images/header.jpg');
-		background-size:			cover;
-		background-position:		auto;
-		background-repeat:			no-repeat;
-		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		position: relative;
+		border: solid 1px #cccccc;
+		-ms-behavior: url("css/ie/PIE.htc");
 	}
 
-/*********************************************************************************/
-/* Main Sections                                                                 */
-/*********************************************************************************/
+/* Image */
 
-	.main
-	{
+	.image {
+		border: 0;
+		display: inline-block;
+		position: relative;
 	}
 
-		.main > .content
-		{
+		.image:after {
+			display: none;
 		}
 
-		.main > .content.style1
-		{
-			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#412e4c, endColorstr=#a56365);
+/* Box */
+
+	.box {
+		border: solid 1px #cccccc;
+	}
+
+/* Header */
+
+	#header {
+		background-image: url("../../images/header.jpg") !important;
+		background-size: cover !important;
+		background-position: scroll !important;
+		-ms-behavior: url("css/ie/backgroundsize.min.htc");
+		padding: 8em 0 !important;
+		color: white;
+	}
+
+		#header a {
+			color: inherit;
 		}
 
-		.main > .content.style2
-		{
-			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#85505f, endColorstr=#384955);
+		#header:before {
+			content: '';
+			background-image: url("../images/overlay.png");
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			display: block;
+			z-index: 0;
 		}
 
-		.main > .content.style3
-		{
-			filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#2f394e, endColorstr=#5f796b);
+		#header > * {
+			position: relative;
+			z-index: 1;
 		}
+
+		#header .logo {
+			-ms-behavior: url("css/ie/PIE.htc");
+		}
+
+/* Footer */
+
+	#footer {
+		background-image: none !important;
+		margin-top: 0 !important;
+		padding: 4em 0 !important;
+		color: white;
+	}
+
+/* Main */
+
+	#main {
+		padding: 4em 0;
+	}
