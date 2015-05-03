@@ -837,8 +837,8 @@
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
 		}
-		
-		
+
+
 		#header {
 			background-attachment: scroll,							scroll,					fixed;
 			background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../images/header.jpg");
@@ -850,7 +850,7 @@
 			position: relative;
 			text-align: center;
 		}
-	
+
 			#header:before, #header:after {
 				background: rgba(224, 224, 224, 0.75);
 				content: '';
@@ -859,36 +859,36 @@
 				width: 1px;
 				z-index: 0;
 			}
-	
+
 			#header:before {
 				height: calc(100% - 50px);
 				opacity: 0.15;
 				top: 0;
 			}
-	
+
 			#header:after {
 				bottom: 0;
 				height: 50px;
 			}
-	
+
 			#header a {
 				border-bottom-color: rgba(255, 255, 255, 0.35);
 				color: rgba(255, 255, 255, 0.8);
 			}
-	
+
 				#header a:hover {
 					border-bottom-color: transparent;
 					color: #d9694a;
 				}
-	
+
 			#header strong, #header b {
 				color: white;
 			}
-	
+
 			#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
 				color: white;
 			}
-	
+
 			#header input[type="submit"],
 			#header input[type="reset"],
 			#header input[type="button"],
@@ -896,7 +896,7 @@
 				background: white;
 				color: #544d55;
 			}
-	
+
 			#header .logo {
 				background: #d9694a;
 				border-radius: 100%;
@@ -910,26 +910,26 @@
 				text-align: center;
 				width: 2.35em;
 			}
-	
+
 				#header .logo.fa-paper-plane-o:before {
 					left: -0.075em;
 					position: relative;
 				}
-	
+
 			#header h1 {
 				font-size: 2.5em;
 				margin: 0;
 			}
-	
+
 			#header p {
 				font-size: 1.5em;
 				line-height: 1.5em;
 				margin: 0.25em 0 0 0;
 			}
-		
-		
+
+
 			/* Midroll */
-			
+
 				#midroll {
 					background-attachment: scroll,							scroll,					fixed;
 					background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../images/midroll.jpg");
@@ -941,7 +941,7 @@
 					position: relative;
 					text-align: center;
 				}
-			
+
 					#midroll:before, #midroll:after {
 						background: rgba(224, 224, 224, 0.75);
 						content: '';
@@ -950,36 +950,36 @@
 						width: 1px;
 						z-index: 0;
 					}
-			
+
 					#midroll:before {
 						height: calc(100% - 50px);
 						opacity: 0.15;
 						top: 0;
 					}
-			
+
 					#midroll:after {
 						bottom: 0;
 						height: 50px;
 					}
-			
+
 					#midroll a {
 						border-bottom-color: rgba(255, 255, 255, 0.35);
 						color: rgba(255, 255, 255, 0.8);
 					}
-			
+
 						#midroll a:hover {
 							border-bottom-color: transparent;
 							color: #d9694a;
 						}
-			
+
 					#midroll strong, #midroll b {
 						color: white;
 					}
-			
+
 					#midroll h1, #midroll h2, #midroll h3, #midroll h4, #midroll h5, #midroll h6 {
 						color: white;
 					}
-			
+
 					#midroll input[type="submit"],
 					#midroll input[type="reset"],
 					#midroll input[type="button"],
@@ -987,7 +987,7 @@
 						background: white;
 						color: #544d55;
 					}
-			
+
 					#midroll .logo {
 						background: #d9694a;
 						border-radius: 100%;
@@ -1001,24 +1001,24 @@
 						text-align: center;
 						width: 2.35em;
 					}
-			
+
 						#midroll .logo.fa-paper-plane-o:before {
 							left: -0.075em;
 							position: relative;
 						}
-			
+
 					#midroll h1 {
 						font-size: 2.5em;
 						margin: 0;
 					}
-			
+
 					#midroll p {
 						font-size: 1.5em;
 						line-height: 1.5em;
 						margin: 0.25em 0 0 0;
 					}
-					
-					
+
+
 					#midroll {
 						background-attachment: scroll,							scroll,					fixed;
 						background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../images/midroll.jpg");
@@ -1030,7 +1030,7 @@
 						position: relative;
 						text-align: center;
 					}
-				
+
 						#midroll:before, #midroll:after {
 							background: rgba(224, 224, 224, 0.75);
 							content: '';
@@ -1039,36 +1039,36 @@
 							width: 1px;
 							z-index: 0;
 						}
-				
+
 						#midroll:before {
 							height: calc(100% - 50px);
 							opacity: 0.15;
 							top: 0;
 						}
-				
+
 						#midroll:after {
 							bottom: 0;
 							height: 50px;
 						}
-				
+
 						#midroll a {
 							border-bottom-color: rgba(255, 255, 255, 0.35);
 							color: rgba(255, 255, 255, 0.8);
 						}
-				
+
 							#midroll a:hover {
 								border-bottom-color: transparent;
 								color: #d9694a;
 							}
-				
+
 						#midroll strong, #midroll b {
 							color: white;
 						}
-				
+
 						#midroll h1, #midroll h2, #midroll h3, #midroll h4, #midroll h5, #midroll h6 {
 							color: white;
 						}
-				
+
 						#midroll input[type="submit"],
 						#midroll input[type="reset"],
 						#midroll input[type="button"],
@@ -1076,7 +1076,7 @@
 							background: white;
 							color: #544d55;
 						}
-				
+
 						#midroll .logo {
 							background: #d9694a;
 							border-radius: 100%;
@@ -1090,23 +1090,23 @@
 							text-align: center;
 							width: 2.35em;
 						}
-				
+
 							#midroll .logo.fa-paper-plane-o:before {
 								left: -0.075em;
 								position: relative;
 							}
-				
+
 						#midroll h1 {
 							font-size: 2.5em;
 							margin: 0;
 						}
-				
+
 						#midroll p {
 							font-size: 1.5em;
 							line-height: 1.5em;
 							margin: 0.25em 0 0 0;
-						}			
-		
+						}
+
 
 /* Footer */
 
@@ -1240,3 +1240,10 @@
 		#main footer.major {
 			background: white;
 		}
+
+
+		.embed-container {
+		position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: 1000px; width: 100%; overflow: auto; }
+
+		.embed-container iframe, .embed-container object, .embed-container embed {
+		position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
